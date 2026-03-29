@@ -1,0 +1,98 @@
+{
+  "1000": {
+    "SELECT по ID": {
+      "SQLAlchemy ORM": 0.016049,
+      "Django ORM": 0.014614,
+      "Raw SQL": 0.099806
+    },
+    "Фильтрация + сортировка": {
+      "SQLAlchemy ORM": 0.00683,
+      "Django ORM": 0.002791,
+      "Raw SQL": 0.099491
+    },
+    "JOIN": {
+      "SQLAlchemy ORM": 0.006113,
+      "Django ORM": 0.002026,
+      "Raw SQL": 0.100283
+    },
+    "Агрегат (GROUP BY)": {
+      "SQLAlchemy ORM": 0.004589,
+      "Django ORM": 0.003453,
+      "Raw SQL": 0.10219
+    },
+    "Массовая вставка": {
+      "SQLAlchemy ORM": 0.047738,
+      "Django ORM": 0.051237,
+      "Raw SQL": 0.172272
+    },
+    "Массовое обновление": {
+      "SQLAlchemy ORM": 0.015969,
+      "Django ORM": 0.013219,
+      "Raw SQL": 0.11321
+    }
+  },
+  "10000": {
+    "SELECT по ID": {
+      "SQLAlchemy ORM": 0.003725,
+      "Django ORM": 0.001657,
+      "Raw SQL": 0.097134
+    },
+    "Фильтрация + сортировка": {
+      "SQLAlchemy ORM": 0.008746,
+      "Django ORM": 0.004422,
+      "Raw SQL": 0.098945
+    },
+    "JOIN": {
+      "SQLAlchemy ORM": 0.006393,
+      "Django ORM": 0.001756,
+      "Raw SQL": 0.100301
+    },
+    "Агрегат (GROUP BY)": {
+      "SQLAlchemy ORM": 0.003706,
+      "Django ORM": 0.010845,
+      "Raw SQL": 0.106381
+    },
+    "Массовая вставка": {
+      "SQLAlchemy ORM": 0.051994,
+      "Django ORM": 0.049944,
+      "Raw SQL": 0.189045
+    },
+    "Массовое обновление": {
+      "SQLAlchemy ORM": 0.035001,
+      "Django ORM": 0.022802,
+      "Raw SQL": 0.119811
+    }
+  },
+  "100000": {
+    "SELECT по ID": {
+      "SQLAlchemy ORM": 0.005578,
+      "Django ORM": 0.001703,
+      "Raw SQL": 0.097518
+    },
+    "Фильтрация + сортировка": {
+      "SQLAlchemy ORM": 0.024685,
+      "Django ORM": 0.024046,
+      "Raw SQL": 0.112873
+    },
+    "JOIN": {
+      "SQLAlchemy ORM": 0.027084,
+      "Django ORM": 0.001836,
+      "Raw SQL": 0.097777
+    },
+    "Агрегат (GROUP BY)": {
+      "SQLAlchemy ORM": 0.004004,
+      "Django ORM": 0.049856,
+      "Raw SQL": 0.127932
+    },
+    "Массовая вставка": {
+      "SQLAlchemy ORM": 0.084106,
+      "Django ORM": 0.038665,
+      "Raw SQL": 0.195991
+    },
+    "Массовое обновление": {
+      "SQLAlchemy ORM": 0.078791,
+      "Django ORM": 0.078691,
+      "Raw SQL": 0.171177
+    }
+  }
+}
